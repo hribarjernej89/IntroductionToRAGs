@@ -1,0 +1,166 @@
+[
+  {
+    "id": 1,
+    "question": "What does RL stand for?",
+    "answer": "Reinforcement Learning. It is a machine learning technique in which an agent learns by interacting with an environment. The agent improves over time by receiving rewards or penalties for its actions.",
+    "source_page": 4,
+    "keywords": [
+      "RL",
+      "reinforcement learning"
+    ]
+  },
+  {
+    "id": 2,
+    "question": "What are the HHH principles?",
+    "answer": "Helpfulness, Honesty, and Harmlessness. These principles are used to align AI behavior with human values. They aim to make responses useful, truthful, and safe.",
+    "source_page": 3,
+    "keywords": [
+      "HHH",
+      "helpfulness",
+      "honesty",
+      "harmlessness"
+    ]
+  },
+  {
+    "id": 3,
+    "question": "What is the agent in reinforcement learning?",
+    "answer": "The decision-maker that perceives the environment and takes actions. It observes the current state and chooses what to do next. Its goal is to learn a policy that maximizes long-term reward.",
+    "source_page": 4,
+    "keywords": [
+      "agent",
+      "decision-maker",
+      "environment",
+      "actions"
+    ]
+  },
+  {
+    "id": 4,
+    "question": "What is a reward in reinforcement learning?",
+    "answer": "A feedback signal that encourages or discourages actions. Positive rewards reinforce good behavior, while negative rewards penalize poor choices. The agent tries to maximize cumulative reward over time.",
+    "source_page": 4,
+    "keywords": [
+      "reward",
+      "feedback signal",
+      "positive",
+      "negative"
+    ]
+  },
+  {
+    "id": 5,
+    "question": "What does RLHF stand for?",
+    "answer": "Reinforcement Learning from Human Feedback. In RLHF, people review and rank model outputs based on criteria such as helpfulness and accuracy. That feedback is then used to guide further model training.",
+    "source_page": 8,
+    "keywords": [
+      "RLHF",
+      "human feedback"
+    ]
+  },
+  {
+    "id": 6,
+    "question": "What does the reward model do in RLHF?",
+    "answer": "It scores model outputs by how well they match human preferences. The reward model is trained on human-labeled examples. Its scores are then used to improve the language model during reinforcement learning.",
+    "source_page": 10,
+    "keywords": [
+      "reward model",
+      "scores",
+      "human preferences",
+      "RLHF"
+    ]
+  },
+  {
+    "id": 7,
+    "question": "What algorithm is commonly used to update the model in RLHF?",
+    "answer": "Proximal Policy Optimization, or PPO. PPO updates the model in a stable way during reinforcement learning. It is useful in RLHF because it learns efficiently from limited and expensive human feedback.",
+    "source_page": 15,
+    "keywords": [
+      "PPO",
+      "Proximal Policy Optimization",
+      "RLHF",
+      "update"
+    ]
+  },
+  {
+    "id": 8,
+    "question": "What does AutoRL remove from training?",
+    "answer": "It removes the need for human-in-the-loop feedback. Instead, the model relies on automated evaluation and self-improving mechanisms. This makes training more scalable and cost-effective.",
+    "source_page": 16,
+    "keywords": [
+      "AutoRL",
+      "human-in-the-loop",
+      "feedback"
+    ]
+  },
+  {
+    "id": 9,
+    "question": "What is an autonomous AI agent?",
+    "answer": "A fully independent agent that completes tasks with minimal human intervention. It can plan, reason, and adjust its behavior based on context and external resources. This makes it more capable than a passive assistant.",
+    "source_page": 18,
+    "keywords": [
+      "autonomous AI agent",
+      "independent",
+      "minimal human intervention"
+    ]
+  },
+  {
+    "id": 10,
+    "question": "What does the planning module do in a GenAI agent?",
+    "answer": "It breaks large goals into smaller sub-goals and refines the plan. This helps the agent handle complex tasks step by step. It also supports reflection and adjustment based on past outcomes.",
+    "source_page": 19,
+    "keywords": [
+      "planning module",
+      "sub-goals",
+      "refine",
+      "GenAI agent"
+    ]
+  },
+  {
+    "id": 11,
+    "question": "How is Agentic RAG different from traditional RAG?",
+    "answer": "Agentic RAG uses agents to refine queries, choose tools, and adapt dynamically. Traditional RAG usually follows a fixed retrieve-then-generate pipeline. Agentic RAG can re-query, integrate external tools, and make workflow decisions autonomously.",
+    "source_page": 25,
+    "keywords": [
+      "Agentic RAG",
+      "traditional RAG",
+      "refine queries",
+      "tools",
+      "adapt"
+    ]
+  },
+  {
+    "id": 12,
+    "question": "What is the action execution step in Agentic RAG?",
+    "answer": "The system can take actions such as sending emails, scheduling meetings, or calling APIs. This means it does more than just return text. It can complete follow-up steps in the real world based on the retrieved information.",
+    "source_page": 26,
+    "keywords": [
+      "action execution",
+      "sending emails",
+      "scheduling meetings",
+      "APIs"
+    ]
+  },
+  {
+    "id": 13,
+    "question": "What data does the travel assistant retrieve?",
+    "answer": "It retrieves real-time weather information and other external data. The agent uses that information together with user preferences and travel dates. It can then generate personalized advice and even send notifications.",
+    "source_page": 29,
+    "keywords": [
+      "travel assistant",
+      "weather",
+      "external data",
+      "retrieve"
+    ]
+  },
+  {
+    "id": 14,
+    "question": "What is function calling with LLMs?",
+    "answer": "It lets an LLM call external tools and APIs using structured arguments. The model can decide that a tool is needed and produce the required inputs in a machine-readable format. This enables tasks such as flight search, database queries, and knowledge retrieval.",
+    "source_page": 33,
+    "keywords": [
+      "function calling",
+      "LLMs",
+      "tools",
+      "APIs",
+      "structured arguments"
+    ]
+  }
+]
