@@ -57,4 +57,6 @@ pip install -r requirements.txt
 ## Dataset
 14 QA pairs on RL, RLHF, PPO, Agentic RAG. See `qa_rl_dataset.json`
 
-## requirements.txt
+## Requirements.txt
+
+The necessary python libraries are listed in `requirements.txt`
